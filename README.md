@@ -24,7 +24,8 @@ Example -
 ### Analogy 
 ***Global alignment*** is like trying to match two strings of beads of different lengths and colors. You have to align them from end to end, and you can insert gaps or spaces between the beads to make them fit better. However, you have to pay a penalty for each gap you introduce, because it means that the beads are not perfectly matched. The goal is to find the alignment that minimizes the total penalty and maximizes the number of matching beads.
 
-<img width="691" alt="image" src="https://github.com/PetBiotech/Technical-Writing/assets/116794066/984c2e54-517e-46d1-99e3-3d10deb1aff9">
+<img width="739" alt="image" src="https://github.com/Sirczechs-Kaustubh/Technical-writing/assets/128580953/d46208ee-f587-4b20-84fa-ab453bbab432">
+
 
 
 | Differences | Local Alignment | Global Alignment |
