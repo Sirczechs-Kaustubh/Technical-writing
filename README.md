@@ -14,8 +14,7 @@ Remember, sequence alignment is more than just a matching game. It’s a tool th
 ***Local Alignment*** is a method that identifies regions of similarity within long sequences that are often widely divergent overall. It is used when the sequences to be aligned contain regions of similarity within their larger sequence, such as genes within genomes or domains within proteins.
 
 ### Analogy   
-***Local alignment*** is like trying to find the most similar patches of fabric in two quilts of different sizes and patterns. You don’t have to align the whole quilts, just the parts that are most similar. You can also ignore the gaps or spaces between the patches, because they don’t affect the similarity score. The goal is to find the alignment that maximizes the similarity score and the number of matching patches
-Example -
+***Local alignment*** is like trying to find the most similar patches of fabric in two quilts of different sizes and patterns. You don’t have to align the whole quilts, just the parts that are most similar. You can also ignore the gaps or spaces between the patches, because they don’t affect the similarity score. The goal is to find the alignment that maximizes the similarity score and the number of matching patches.
 
 
 ## Global alignment 
