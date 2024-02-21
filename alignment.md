@@ -16,7 +16,10 @@ Remember, sequence alignment is more than just a matching game. It’s a tool th
 ### Analogy   
 ***Local alignment*** is like trying to find the most similar patches of fabric in two quilts of different sizes and patterns. You don’t have to align the whole quilts, just the parts that are most similar. You can also ignore the gaps or spaces between the patches, because they don’t affect the similarity score. The goal is to find the alignment that maximizes the similarity score and the number of matching patches.
 
-***BLAST*** or Basic Local Alignment Search Tool is a prime example of a tool that utilizes Local alignment. Our famous Sequence Server performs BLAST on an customizable database. Here, we obtain multiple local pairwise alignments, also knows as High Scoring Segment Pairs (HSP). These HSP represent the most similar patches or regions between two sequences. This is particularly useful when we are interested in identifying similar genes within genomes or domains within proteins, even if thare part of larger, widely divergent sequences. 
+***BLAST*** or Basic Local Alignment Search Tool is a prime example of a tool that utilizes Local alignment. Our famous Sequence Server performs BLAST on an customizable database. Here, we obtain multiple local pairwise alignments, also knows as High Scoring Segment Pairs (HSP). These HSP represent the most similar patches or regions between two sequences. This is particularly useful when we are interested in identifying similar genes within genomes or domains within proteins, even if thare part of larger, widely divergent sequences.
+
+<img width="735" alt="image" src="https://github.com/Sirczechs-Kaustubh/Technical-writing/assets/128580953/fb89bbc1-69ec-4664-bb62-bfa7f5d8c204">
+
 For tasks that require alignment of the entire sequences we Global Alignment and the commonly used tool MAFFT.
 
 ## Global alignment 
