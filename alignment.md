@@ -13,7 +13,7 @@ Remember, sequence alignment is more than just a matching game. It’s a tool th
 ## Local Alignment 
 ***Local Alignment*** is a method that identifies regions of similarity within long sequences that are often widely divergent overall. It is used when the sequences to be aligned contain regions of similarity within their larger sequence, such as genes within genomes or domains within proteins.
 
-***BLAST*** or Basic Local Alignment Search Tool is a prime example of a tool that utilizes Local alignment. Our famous Sequence Server performs BLAST on an customizable database. Here, we obtain multiple local pairwise alignments, also knows as High Scoring Segment Pairs (HSP). These HSP represent the most similar patches or regions between two sequences. This is particularly useful when we are interested in identifying similar genes within genomes or domains within proteins, even if thare part of larger, widely divergent sequences.
+***BLAST*** or Basic Local Alignment Search Tool is a prime example of a tool that utilizes Local alignment. Our famous Sequence Server performs BLAST on an customizable database. Here, we obtain multiple local pairwise alignments, also known as High Scoring Segment Pairs (HSP). These HSP represent the most similar patches or regions between two sequences. This is particularly useful when we are interested in identifying similar genes within genomes or domains within proteins, even if they are part of larger, widely divergent sequences.
 
 <img width="735" alt="image" src="https://github.com/Sirczechs-Kaustubh/Technical-writing/assets/128580953/fb89bbc1-69ec-4664-bb62-bfa7f5d8c204">
 
@@ -37,8 +37,6 @@ Before we delve into the comparison of local and global alignment, it’s crucia
 
 <img width="739" alt="image" src="https://github.com/Sirczechs-Kaustubh/Technical-writing/assets/128580953/d46208ee-f587-4b20-84fa-ab453bbab432">
 
-<br>
-
 | Differences | Local Alignment | Global Alignment |
 | ----------- | --------------- | ---------------- |
 | Definition | In local alignment, an attempt is made to find local regions with the highest level of similarity between the two sequences. | In global alignment, an attempt is made to align the entire sequence (end to end alignment). |
@@ -50,3 +48,4 @@ Before we delve into the comparison of local and global alignment, it’s crucia
 
 ## Conclusion
 In this article, you have learned the difference between global and local alignment, and how to choose the best method for your analysis. Global alignment is useful for comparing sequences that are similar in length and have a high degree of similarity throughout. Local alignment is useful for finding regions of high similarity within long or dissimilar sequences. Both methods have their advantages and disadvantages, and you should consider the nature and purpose of your comparison before applying them.
+![image](https://github.com/Sirczechs-Kaustubh/Technical-writing/assets/128580953/ad985929-b69f-4728-9539-0b67879984b5)
