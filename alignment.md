@@ -37,7 +37,7 @@ Before we delve into the comparison of local and global alignment, it’s crucia
 
 <img width="739" alt="image" src="https://github.com/Sirczechs-Kaustubh/Technical-writing/assets/128580953/d46208ee-f587-4b20-84fa-ab453bbab432">
 
-
+<br>
 | Differences | Local Alignment | Global Alignment |
 | ----------- | --------------- | ---------------- |
 | Definition | In local alignment, an attempt is made to find local regions with the highest level of similarity between the two sequences. | In global alignment, an attempt is made to align the entire sequence (end to end alignment). |
