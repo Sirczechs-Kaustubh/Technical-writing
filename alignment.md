@@ -13,24 +13,24 @@ Remember, sequence alignment is more than just a matching game. It’s a tool th
 ## Local Alignment 
 ***Local Alignment*** is a method that identifies regions of similarity within long sequences that are often widely divergent overall. It is used when the sequences to be aligned contain regions of similarity within their larger sequence, such as genes within genomes or domains within proteins.
 
-### Analogy   
-***Local alignment*** is like trying to find the most similar patches of fabric in two quilts of different sizes and patterns. You don’t have to align the whole quilts, just the parts that are most similar. You can also ignore the gaps or spaces between the patches, because they don’t affect the similarity score. The goal is to find the alignment that maximizes the similarity score and the number of matching patches.
-
 ***BLAST*** or Basic Local Alignment Search Tool is a prime example of a tool that utilizes Local alignment. Our famous Sequence Server performs BLAST on an customizable database. Here, we obtain multiple local pairwise alignments, also knows as High Scoring Segment Pairs (HSP). These HSP represent the most similar patches or regions between two sequences. This is particularly useful when we are interested in identifying similar genes within genomes or domains within proteins, even if thare part of larger, widely divergent sequences.
 
 <img width="735" alt="image" src="https://github.com/Sirczechs-Kaustubh/Technical-writing/assets/128580953/fb89bbc1-69ec-4664-bb62-bfa7f5d8c204">
 
-For tasks that require alignment of the entire sequences we Global Alignment and the commonly used tool MAFFT.
+### Analogy   
+***Local alignment*** is like trying to find the most similar patches of fabric in two quilts of different sizes and patterns. You don’t have to align the whole quilts, just the parts that are most similar. You can also ignore the gaps or spaces between the patches, because they don’t affect the similarity score. The goal is to find the alignment that maximizes the similarity score and the number of matching patches.
+
+For tasks that require alignment of the entire sequences we use Global Alignment and the commonly used tool MAFFT.
 
 ## Global alignment 
 ***Global Alignment*** attempts to align every residue in every sequence. It is most useful when the sequences in the query set are similar and of roughly equal size. This type of alignment considers all possible alignments and gap placements and chooses the best alignment that maximizes the match and minimizes the gaps.
 
-### Analogy 
-***Global alignment*** is like trying to match two strings of beads of different lengths and colors. You have to align them from end to end, and you can insert gaps or spaces between the beads to make them fit better. However, you have to pay a penalty for each gap you introduce, because it means that the beads are not perfectly matched. The goal is to find the alignment that minimizes the total penalty and maximizes the number of matching beads.
-
 ***MAFFT*** or (Multiple Alignment using Fast Fourier Transform) is a tool used to align sequences from end to end, providing a more comprehensive view of the patterns. Unlike BLAST, which focuses on local regions of similarity, MAFFT aligns sequences in their entirety. This is particularly useful when studying evolutionary relationships or identifying conserved domains across species.
 
 MAFFT employs a technique known as the Fast Fourier Transform to expedite the alignment process, making it a practical choice for large-scale sequence analysis. It’s capable of handling thousands of sequences simultaneously, thereby establishing itself as a potent tool in bioinformatics research.
+
+### Analogy 
+***Global alignment*** is like trying to match two strings of beads of different lengths and colors. You have to align them from end to end, and you can insert gaps or spaces between the beads to make them fit better. However, you have to pay a penalty for each gap you introduce, because it means that the beads are not perfectly matched. The goal is to find the alignment that minimizes the total penalty and maximizes the number of matching beads.
 
 Before we delve into the comparison of local and global alignment, it’s crucial to understand the distinct applications of these tools. BLAST is often employed for identifying genes and their functions, metagenomics, drug discovery, and comparative genomics. On the other hand, MAFFT is utilized for phylogenetic analysis, protein structure prediction, and the study of gene regulations.
 
