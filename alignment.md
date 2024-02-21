@@ -48,4 +48,4 @@ Before we delve into the comparison of local and global alignment, it’s crucia
 
 ## Conclusion
 In this article, you have learned the difference between global and local alignment, and how to choose the best method for your analysis. Global alignment is useful for comparing sequences that are similar in length and have a high degree of similarity throughout. Local alignment is useful for finding regions of high similarity within long or dissimilar sequences. Both methods have their advantages and disadvantages, and you should consider the nature and purpose of your comparison before applying them.
-![image](https://github.com/Sirczechs-Kaustubh/Technical-writing/assets/128580953/ad985929-b69f-4728-9539-0b67879984b5)
+
